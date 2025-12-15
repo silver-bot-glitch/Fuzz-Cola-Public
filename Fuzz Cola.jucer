@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Aodfyt" name="Fuzz Cola" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildAAX,buildAU,buildStandalone,buildVST3"
+              pluginVST3Category="Distortion,Fx" pluginAAXCategory="64,8192"
+              pluginName="Fuzz Cola" pluginDesc="Op Amp Big Muff Emulation / Inspiration"
+              pluginManufacturer="Silver DSP" pluginManufacturerCode="Silv"
+              pluginCode="Fcol" pluginAUMainType="'aumf'" companyName="Silver DSP">
+  <MAINGROUP id="eujojT" name="Fuzz Cola">
+    <GROUP id="{BB5E358B-2E20-4D53-7211-581193E3661E}" name="GUI">
+      <FILE id="TlPSn0" name="HiResBackground0001.png" compile="0" resource="1"
+            file="GUI/HiResBackground0001.png"/>
+      <FILE id="N3cLbK" name="HiResBypassSwitch0001.png" compile="0" resource="1"
+            file="GUI/HiResBypassSwitch0001.png"/>
+      <FILE id="ukjoJ8" name="HiResBypassSwitch0002.png" compile="0" resource="1"
+            file="GUI/HiResBypassSwitch0002.png"/>
+      <FILE id="fIpBcg" name="HiResLED0001.png" compile="0" resource="1"
+            file="GUI/HiResLED0001.png"/>
+      <FILE id="MAdG5E" name="HiResLED0038.png" compile="0" resource="1"
+            file="GUI/HiResLED0038.png"/>
+      <FILE id="pUlFIN" name="HiResOnOff0001.png" compile="0" resource="1"
+            file="GUI/HiResOnOff0001.png"/>
+      <FILE id="dOLMVj" name="HiResOnOff0002.png" compile="0" resource="1"
+            file="GUI/HiResOnOff0002.png"/>
+      <FILE id="RhhTCs" name="HiResSustainKnob_filmstrip.png" compile="0"
+            resource="1" file="GUI/HiResSustainKnob_filmstrip.png"/>
+      <FILE id="ayDiKl" name="HiResToneKnob_filmstrip.png" compile="0" resource="1"
+            file="GUI/HiResToneKnob_filmstrip.png"/>
+      <FILE id="mKacb0" name="HiResVolumeKnob_filmstrip.png" compile="0"
+            resource="1" file="GUI/HiResVolumeKnob_filmstrip.png"/>
+      <FILE id="gh6Pqw" name="LoResBackground0001.png" compile="0" resource="1"
+            file="GUI/LoResBackground0001.png"/>
+      <FILE id="QclfoL" name="LoResBypassSwitch0001.png" compile="0" resource="1"
+            file="GUI/LoResBypassSwitch0001.png"/>
+      <FILE id="RGV7nX" name="LoResBypassSwitch0002.png" compile="0" resource="1"
+            file="GUI/LoResBypassSwitch0002.png"/>
+      <FILE id="Gypa3m" name="LoResLED0001.png" compile="0" resource="1"
+            file="GUI/LoResLED0001.png"/>
+      <FILE id="aRmc7I" name="LoResLED0038.png" compile="0" resource="1"
+            file="GUI/LoResLED0038.png"/>
+      <FILE id="yyfEWQ" name="LoResOnOff0001.png" compile="0" resource="1"
+            file="GUI/LoResOnOff0001.png"/>
+      <FILE id="R4BxwL" name="LoResOnOff0002.png" compile="0" resource="1"
+            file="GUI/LoResOnOff0002.png"/>
+      <FILE id="kKBVo3" name="LoResSustainKnob_filmstrip.png" compile="0"
+            resource="1" file="GUI/LoResSustainKnob_filmstrip.png"/>
+      <FILE id="oKjP3k" name="LoResToneKnob_filmstrip.png" compile="0" resource="1"
+            file="GUI/LoResToneKnob_filmstrip.png"/>
+      <FILE id="BLhbKM" name="LoResVolumeKnob_filmstrip.png" compile="0"
+            resource="1" file="GUI/LoResVolumeKnob_filmstrip.png"/>
+    </GROUP>
+    <GROUP id="{1DF6F564-C2E0-AB8A-9642-DE804695EDAD}" name="Source">
+      <FILE id="euz0E0" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="lSB1Da" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="xhOoB8" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="kFgryk" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Fuzz Cola"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Fuzz Cola"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
