@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Projucer / IDE junk
+**/.idea/
+**/.vs/
+**/*.user
+**/*.suo
+
+# Projucer build folders (generated)
+# Ignore generated build output and JUCE/Projucer files
+Builds/
+JuceLibraryCode/
+build/
+*.vst3
+.DS_Store
+
+# Xcode user data
+**/*.xcuserstate
+**/xcuserdata/
+
+# Visual Studio user data
+**/.vscode/
+**/x64/
+**/Debug/
+**/Release/
+
+# Plugin binaries / intermediates
+**/*.vst3
+**/*.component
+**/*.app
+**/*.a
+**/*.lib
+**/*.dll
+**/*.pdb
+
+# JUCE generated code (optional, but recommended to avoid noise)
+JuceLibraryCode/
+
+# If you vendored JUCE as a submodule, keep the JUCE folder tracked
+# (so do NOT ignore JUCE/)
